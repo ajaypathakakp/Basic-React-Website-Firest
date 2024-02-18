@@ -24,9 +24,14 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
-        <section id='examples'>
+        <section id="examples">
           <h2>Examples</h2>
-          <TabButton> Components</TabButton>
+          <menu>
+          <TabButton>Components</TabButton>
+          <TabButton>JSX</TabButton>
+          <TabButton>PROPS</TabButton>
+          <TabButton>State</TabButton>
+          </menu>
         </section>
       </main>
     </div>
